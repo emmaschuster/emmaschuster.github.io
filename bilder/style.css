@@ -2,18 +2,17 @@ h1 {
     font-size: 30px;
     color: #437C90;
 } 
-body{ 
+body { 
     background-color: #e0f0f4;
     margin: 0; 
 }
-.navi{ 
+.navi { 
     font-size: 21px;
     background-color: #78B4C0;
     padding: 10px; 
-    margin: 0px;
-    color: #6ba0c8;
+    display: flex;
+    justify-content: space-between;
 
-    
 }
 .content { 
 padding: 10px;
