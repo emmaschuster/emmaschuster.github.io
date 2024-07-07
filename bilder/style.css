@@ -18,7 +18,10 @@ button {
     font-style: normal;
     color:#4661CF ;
 }
+button:hover {
+    color: #468DCF;
 
+}
 .navi { 
     font-size: 25px;
     background-color: #78B4C0;
