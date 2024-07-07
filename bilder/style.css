@@ -32,8 +32,10 @@ button:hover {
 
 }
 .content { 
-    padding: 10px;
     margin: 0px;
     color:  #437C90;
     display: flex;
+}
+.leftcontainer {
+    padding: 20px;
 }
