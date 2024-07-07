@@ -5,6 +5,7 @@ h1 {
 body { 
     background-color: #e0f0f4;
     margin: 0; 
+    font-family: Arial;
 }
 .navi { 
     font-size: 25px;
@@ -18,4 +19,5 @@ body {
 .content { 
 padding: 10px;
 margin: 0px;
+color:  #437C90;
 }
