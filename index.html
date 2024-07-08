@@ -9,8 +9,8 @@
                 <div class="navi">
                
                   <div class="buttoncontainer">
-                     <button onclick="zeigeMeldung()">Home</button>
-                     <button>Kontakt</button>
+                     <button onclick="showHome()">Home</button>
+                     <button onclick="showKontakt()">Kontakt</button>
                      <button>Meinungen</button>
             
                   </div>
@@ -54,8 +54,13 @@
 
 
                     <script>
-                        function zeigeMeldung(){
+                        function showHome(){
                             alert("Herzlich Willkommen bei Mirrorfresh!");
+                        }
+
+                        function showKontakt(){
+                            var HomeSection = document.querySelector(".home");
+                            HomeSection.style.display = "none";
                         }
 
 
