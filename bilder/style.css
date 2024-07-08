@@ -2,6 +2,25 @@ h1 {
     font-size: 30px;
     color: #2F9BC2;
 } 
+
+.home {
+    display: flex;
+    
+}
+
+
+.kontakt {
+    display: none;
+
+}
+
+.meinungen {
+    display:none;
+
+}
+
+
+
 body { 
     background-color: #e0f0f4;
     margin: 0; 
