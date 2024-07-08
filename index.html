@@ -54,15 +54,32 @@
 
 
                     <script>
-                        function showHome(){
-                            alert("Herzlich Willkommen bei Mirrorfresh!");
+                        function showHome() {
+                            var HomeSection = document.querySelector(".home");
+                            HomeSection.style.display = "flex";
+                            var KontaktSection = document.querySelector(".kontakt");
+                            KontaktSection.style.display = "none";
+                            var MeinungenSection = document.querySelector(".bestellen");
+                            MeinungenSection.style.display = "none";
                         }
 
-                        function showKontakt(){
+                        function showKontakt() {
                             var HomeSection = document.querySelector(".home");
                             HomeSection.style.display = "none";
                             var KontaktSection = document.querySelector(".kontakt");
                             KontaktSection.style.display = "flex";
+                            var MeinungenSection = document.querySelector(".bestellen");
+                            MeinungenSection.style.display = "none";
+                        }
+
+                        function showMeinungen() {
+                            var HomeSection = document.querySelector(".home");
+                            HomeSection.style.display = "none";
+                            var KontaktSection = document.querySelector(".kontakt");
+                            KontaktSection.style.display = "none";
+                            var MeinungenSection = document.querySelector(".bestellen");
+                            MeinungenSection.style.display = "flex";
+
                         }
 
 
