@@ -64,6 +64,7 @@ button:hover {
 .leftcontainer2 {
     padding: 20px;
     vertical-align: left;
+    list-style-type: square;
 
 }
 .leftcontainer3 {
