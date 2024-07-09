@@ -11,7 +11,7 @@
                   <div class="buttoncontainer">
                      <button onclick="showHome()">Home</button>
                      <button onclick="showKontakt()">Kontakt</button>
-                     <button onclick="showMeinungen()">Meinungen</button>
+                     <button onclick="showKundenmeinungen()">Kundenmeinungen</button>
             
                   </div>
                 </div>  
@@ -42,6 +42,23 @@
                          </p>
                      </section>
 
+                     <section class="Kundenmeinungen">
+                        <div class="meinung-1">
+                         <img scr="./bilder"           
+                            <h>Hier finden Sie Meinungen von Restaurantbesuchern!</h>
+                            <p>Hab noch nie in einem so tollen Restaurant gegessen. Ich bin begeistert von Mirrorfresh.
+                               Nicht nur die Location mit den verschiedenen Spiegeln und Gläsern ist atemberaubend, sondern 
+                               auch das fabelhafte Essen
+                               -Leopold, 24
+                              
+                            
+                            </p>
+
+
+
+
+                     </section>
+
                     <script>
                     var Nachricht1 = "Bitte cookies akzeptieren"
 
@@ -57,8 +74,8 @@
                             HomeSection.style.display = "flex";
                             var KontaktSection = document.querySelector(".kontakt");
                             KontaktSection.style.display = "none";
-                            var MeinungenSection = document.querySelector(".bestellen");
-                            MeinungenSection.style.display = "none";
+                            var Kundenmeinungen = document.querySelector(".bestellen");
+                            KundenmeinungenSection.style.display = "none";
                         }
 
                         function showKontakt() {
@@ -66,17 +83,17 @@
                             HomeSection.style.display = "none";
                             var KontaktSection = document.querySelector(".kontakt");
                             KontaktSection.style.display = "flex";
-                            var MeinungenSection = document.querySelector(".bestellen");
-                            MeinungenSection.style.display = "none";
+                            var KundenmeinungenSection = document.querySelector(".bestellen");
+                            KundenmeinungenSection.style.display = "none";
                         }
 
-                        function showMeinungen() {
+                        function showKundenmeinungen() {
                             var HomeSection = document.querySelector(".home");
                             HomeSection.style.display = "none";
                             var KontaktSection = document.querySelector(".kontakt");
                             KontaktSection.style.display = "none";
-                            var MeinungenSection = document.querySelector(".bestellen");
-                            MeinungenSection.style.display = "flex";
+                            var Kundenmeinungen = document.querySelector(".bestellen");
+                            KundenmeinungenSection.style.display = "flex";
 
                         }
 
