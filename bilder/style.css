@@ -39,6 +39,7 @@ button {
 }
 button:hover {
     color: #5B85C2;
+    font-size: 25;
 
 }
 .navi { 
